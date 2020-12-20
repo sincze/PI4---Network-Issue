@@ -1,7 +1,5 @@
 # PI4---Network-Issue
 The Raspberry Pi seems to loose it's Network Connectivity for some reason. This script helped me to keep the Pi connected to the network.
-
-############################################################################################################
 ##                                                                                                        ##
 ## BASH Scripting                                                                                         ##
 ##                                                                                                        ##
@@ -22,4 +20,4 @@ The Raspberry Pi seems to loose it's Network Connectivity for some reason. This 
 ##                                                                                                        ##
 ##           sudo nano /etc/crontab                                                                       ##
 ##           * * * * *   root    /usr/bin/nice -n20 /home/pi/scripts/check_network.sh  2>&1 >> /dev/null  ##
-############################################################################################################
+
